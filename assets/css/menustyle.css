@@ -1,0 +1,72 @@
+.menu_image_container {
+  background: #ffebee;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.menu_image_container1 {
+  position: relative;
+  right: 36rem;
+  top: -27rem;
+  /* left: 15%; */
+  height: 60rem;
+}
+.zoom {
+  transition: transform 0.2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.main-content.container2 {
+  margin-top: 7%;
+  background: rgb(21, 27, 8);
+  position: relative;
+  left: 5%;
+  color: #fff;
+  width: 120rem;
+}
+
+.main-content_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content2-4 p {
+  width: 500px;
+}
+
+.main-content2-4 {
+  margin: 0.9%;
+}
+
+img.attachment-specialities.size-specialities.wp-post-image {
+  width: 500px;
+}
+
+h4.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+span.span-header {
+  background: yellow;
+  color: black;
+  padding: 3%;
+  border-radius: 50%;
+}
+
+h3.pizza_header {
+  font-size: 6rem;
+  text-align: center;
+  margin: 5% 0%;
+}
